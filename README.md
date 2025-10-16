@@ -1,12 +1,29 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🎬 Complete Movie App Features:
+2025 Movies: Latest releases from TMDB API
+Modern UI: Beautiful dark theme with animations
+Favorites System: Add/remove movies with localStorage
+Search Functionality: Real-time movie search
+Responsive Design: Works on all devices
+Professional Styling: Netflix-inspired design
+📁 Repository Contents:
+Complete React App: All components and pages
+TMDB API Integration: Live movie data
+Modern CSS: Professional styling system
+Context API: Global state management
+React Router: Navigation between pages
+Local Storage: Persistent favorites
+🚀 Ready to Use:
+Clone: git clone https://github.com/TusharKotian/Movie-App-using-ReactJs-.git
+Install: npm install
+Run: npm run dev
+Build: npm run build
+🌟 Movie App Includes:
+✅ Latest 2025 Movies from TMDB
+✅ Beautiful Movie Cards with hover effects
+✅ Working Search with real results
+✅ Favorites Management with persistence
+✅ Modern Navigation with smooth transitions
+✅ Professional UI with dark theme
+✅ Mobile Responsive design
+✅ Real API Integration with fallbacks
+Your movie app is now live on GitHub and ready to be shared, deployed, or further developed! 🎊
