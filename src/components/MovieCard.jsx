@@ -10,7 +10,9 @@ function MovieCard({movie}){
    else addToFavorites(movie)
   }
 
-  return <div className="movie-card">
+  const tmdbUrl = `https://www.themoviedb.org/movie/${movie.id}`
+
+  return <a href={tmdbUrl} className="movie-card" target="_blank" rel="noopener noreferrer">
     <div className="movie-poster">
       <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title} />
       <div className="movie-overlay">
@@ -25,6 +27,6 @@ function MovieCard({movie}){
       <p>{movie.release_date?.split("-")[0]}</p>
 
     </div>
-  </div>
+  </a>
 }
 export default MovieCard

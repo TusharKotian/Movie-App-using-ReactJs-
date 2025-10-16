@@ -55,7 +55,7 @@ function Home(){
         <input type="text" placeholder="Search for Movies..." className="search-input" value={searchQuery} 
         onChange={(e) => setSearchQuery(e.target.value)} 
         />
-        <button>Search</button>
+        <button className="search-button" type="submit">Search</button>
     </form>
       {error && <div className="error-message">{error}</div>}
       
