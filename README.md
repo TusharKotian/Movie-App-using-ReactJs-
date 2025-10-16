@@ -25,8 +25,20 @@ LocalStorage (Favorites Persistence)
 
 CSS / Tailwind / Animations (Styling & Transitions)
 
-## 📁 Repository Structure
-
+ 📁 Repository Structure
+```
+Movie-App-using-ReactJs-
+│
+├── src/
+│ ├── components/ # Reusable UI Components
+│ ├── pages/ # Home, Favorites, Details Pages
+│ ├── context/ # Global State (Favorites Management)
+│ ├── assets/ # Icons, Images, etc.
+│ └── App.jsx # Main Application
+│
+├── package.json
+└── README.md
+```
 
 🚀 Getting Started
 1️⃣ Clone the Repository
